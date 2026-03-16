@@ -1,8 +1,7 @@
-Username = str(input("Enter the username: "))
+user_name = str(input("Enter the Username: "))
 
-
-if(len(Username)<10):
+if(len(user_name)<10):
     print("Invalid Username")
     
 else:
-    print(f"{Username}")
+    print(f"{user_name}")
